@@ -18,6 +18,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<sonar.java.binaries>value="target"</sonar.java.binaries>
 		<java.version>1.8</java.version>
 	</properties>
 
@@ -33,7 +34,7 @@
 		</dependency>
 
 
-	<property name="sonar.java.binaries" value="target" />
+	
 
 
 		<dependency>
